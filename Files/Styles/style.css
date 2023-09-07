@@ -2,3 +2,20 @@ body{
     background-color: #120248;
     color: white;
 }
+.img{
+    max-width: 800px;
+    min-width: 500px;
+    width: 50%;
+}
+.Topic{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.About{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 150px;
+    font-size: 30px;
+}
