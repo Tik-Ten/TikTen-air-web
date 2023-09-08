@@ -1,24 +1,24 @@
-body{
+body {
     background-color: #120248;
     color: #657beb;
 }
-.img{
+.img {
     max-width: 800px;
     min-width: 300px;
 }
-.Topic{
+.Topic {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.Children-of-Topic{
+.Children-of-Topic {
     font-size: xx-large;
     text-align: center;
     max-width: 800px;
     min-width: 300px;
 }
-.Cards{
+.Cards {
     max-width: 1250px;
     min-width: 300px;
     display: flex;
@@ -27,22 +27,85 @@ body{
     flex-wrap: wrap;
     gap: 50px;
 }
-.Friend-card{
+.Friend-card {
     min-width: 100px;
     box-shadow: 0px 0px 20px rgb(0, 0, 0);
     transition: all 0.5s ease-in-out;
     border-radius: 50px;
 }
-.Friend-card:hover{
+.Friend-card:hover {
     box-shadow: 0px 30px 30px rgb(0, 0, 0);    
 }
-.Card-content{
+.Friend-card:focus {
+    box-shadow: 0px 30px 30px rgb(0, 0, 0);    
+}
+.Card-content {
     padding: 10px;
 }
-.Title{
+.Title {
     margin: 0px;
     text-align: center;
 }
-.Text{
+.Text {
     padding: 10px;
+}
+.Form {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+form {
+    width: 30%;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    border: solid blue;
+    border-radius: 25px;
+    gap: 20px;
+    min-width: 350px;
+}
+Select {
+    color: #657beb;
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border-color: aqua;
+}
+input[type=email] {
+    color: #657beb;
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border-color: aqua;
+    border-radius: 25px;
+}
+input[type=file] {
+    color: #657beb;
+    width: 300px;
+    border-radius: 50px;
+}
+textarea{
+    background-color: transparent;
+    color: #657beb;
+    border-radius: 10px;
+    border: solid aqua;
+}
+button[type=submit] {
+    border-radius: 25px;
+    color: #657beb;
+    width: 300px;
+    border: solid aqua;
+    background-color: transparent;
+    transition: all 0.5s ease-in;
+}
+button[type=submit]:hover {
+    background-color: aqua;
+    color: blue;
 }
