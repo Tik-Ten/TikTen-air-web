@@ -17,6 +17,8 @@
 
     - Completed
 # V0.3
-    V0.3 is an UPDATED and UPGRADED website.
+    V0.3 has a thanks page
 # V0.4
-    V0.4 is TikTen air in "tiktenair.ir"
+    V0.4 is an UPDATED and UPGRADED website.
+# V0.5
+    V0.5 is TikTen air in "tiktenair.ir"
