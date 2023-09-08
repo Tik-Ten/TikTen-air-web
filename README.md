@@ -11,6 +11,8 @@
 # V0.1
     V0.1 is a completed website.
 # V0.2
-    V0.2 is UPDATED and UPGRADED website.
+    V0.2 is has 404 error page!
 # V0.3
-    V0.3 is TikTen air in "tiktenair.ir"
+    V0.3 is an UPDATED and UPGRADED website.
+# V0.4
+    V0.4 is TikTen air in "tiktenair.ir"
