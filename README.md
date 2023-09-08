@@ -26,5 +26,7 @@
     - Completed
 # V0.5
     V0.5 has a download (download application) part
+
+    - Completed
 # V0.6
     V0.6 is TikTen air in "tiktenair.ir"
