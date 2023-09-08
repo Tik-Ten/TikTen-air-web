@@ -18,6 +18,8 @@
     - Completed
 # V0.3
     V0.3 has a thanks page
+
+    -Completed
 # V0.4
     V0.4 is an UPDATED and UPGRADED website.
 # V0.5
