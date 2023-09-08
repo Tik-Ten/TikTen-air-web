@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Thanks</title>
+    <link rel="stylesheet" href="Files/Styles/style.css">
+    <meta name="author" content="Farbod Parkhooi" />
+    <link rel="icon" type="image/x-icon" href="Files/Images/Server images/server.png" />
+    <style>
+        * 
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        body 
+        {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .error-container 
+        {
+            text-align: center;
+        }
+
+        h1
+        {
+            font-size: 10rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        h1::before,
+        h1::after 
+        {
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background-color: #fff;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        h1::before 
+        {
+            left: -100%;
+        }
+
+        h1::after 
+        {
+            right: -100%;
+        }
+
+        p 
+        {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .btn 
+        {
+            padding: 1.5rem 3rem;
+            background-color: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            text-transform: uppercase;
+            transition: all 0.5s ease-in-out;
+            display: inline-block;
+        }
+
+        .btn:hover 
+        {
+            border: 2px solid gray;
+            color: gray;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>Thanks</h1>
+        <p>Thank you for send a new data for us!</p>
+        <a href="index.html" style="text-decoration: none;" class="btn">Go Home!</a>
+    </div>
+    <script>
+        const btn = document.querySelector('.btn');
+        btn.addEventListener('click', () => {
+          history.back();
+        });
+    </script>
+</body>
+</html>
