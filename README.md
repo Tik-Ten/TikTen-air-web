@@ -25,10 +25,10 @@
 
     - Completed
 # V0.5
-    V0.5 has a download (download application) part
+    V0.5 is TikTen air in "tiktenair.ir"
 
     - Completed
-# V0.6
-    V0.6 is TikTen air in "tiktenair.ir"
-
-    - Completed
+# V0.7
+    V0.7 has | Send location |
+# V0.8
+    V0.8 has a download (download application) part
