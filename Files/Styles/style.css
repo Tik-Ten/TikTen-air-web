@@ -68,7 +68,12 @@ form {
     border: solid blue;
     border-radius: 25px;
     gap: 20px;
+    box-shadow: 0px 0px 25px rgb(0, 0, 100);
     min-width: 350px;
+    transition: all 0.5s ease-in-out;
+}
+form:hover {
+    box-shadow: 0px 0px 35px rgb(0, 0, 150);
 }
 Select {
     color: #657beb;
@@ -77,6 +82,7 @@ Select {
     width: 300px;
     background-color: transparent;
     border-color: blue;
+    box-shadow: 0px 0px 5px rgb(0, 0, 100);
 }
 input[type=email] {
     color: #657beb;
@@ -85,6 +91,7 @@ input[type=email] {
     background-color: transparent;
     border-color: blue;
     border-radius: 25px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 100);
 }
 input[type=file] {
     color: #657beb;
@@ -96,6 +103,7 @@ textarea{
     color: #657beb;
     border-radius: 10px;
     border: solid blue;
+    box-shadow: 0px 0px 5px rgb(0, 0, 100);
 }
 button[type=submit] {
     border-radius: 25px;
@@ -104,6 +112,7 @@ button[type=submit] {
     border: solid blue;
     background-color: transparent;
     transition: all 0.5s ease-in;
+    box-shadow: 0px 0px 5px rgb(0, 0, 100);
 }
 button[type=submit]:hover {
     background-color: blue;
@@ -146,4 +155,12 @@ button[type=submit]:hover {
 .Download-url:hover {
     background-color: blue;
     color: white;
+}
+.Map {
+    width: 80%;
+    max-width: 80%;
+    height: 500px;
+    border: solid blue;
+    box-shadow: 0px 0px 10px;
+    border-radius: 25px;
 }
