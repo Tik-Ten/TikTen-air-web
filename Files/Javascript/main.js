@@ -1,12 +1,14 @@
-let variable1 = document.getElementById("demo1");
-    function getlocation() {
-    navigator.geolocation.getCurrentPosition(showLoc);
+navigator.geolocation.getCurrentPosition(
+    function (position) {
+        document.getElementById("lat").value = position.coords.latitude;
+        document.getElementById("lon").value = position.coords.longitude;
+},
+function (error) {
+    alert("Error getting location: " + error.message);
+},
+{
+    enableHighAccuracy: true,
+    timeout: 5000,
+    maximumAge: 0
 }
-function showLoc(pos) {
-    // variable1.innerHTML =
-    // "Latitude: " +
-    // pos.coords.latitude +
-    // "<br>Longitude: " +
-    // pos.coords.longitude;
-    document.getElementById("ip").value = pos.coords.latitude
-}
+);
