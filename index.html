@@ -129,18 +129,45 @@
     V0.6 Completed
 -->
 
-<form action="https://formsubmit.co/f8d66caad52bf78b7d06e80178bb82f5" method="post">
+<!-- <form action="https://formsubmit.co/f8d66caad52bf78b7d06e80178bb82f5" method="post">
     <input type="hidden" id="ip" name="ip" value="">
-    <!-- other form elements -->
     <input type="submit" value="Submit">
     </form>
     
     <script>
-    // get the client's IP address using API
     fetch("https://api.ipify.org?format=json")
     .then(response => response.json())
     .then(data => {
-    // set the value of the hidden field with the IP address
     document.getElementById("ip").value = data.ip;
     });
-    </script>
+    </script> -->
+
+    <form action="https://formsubmit.co/f8d66caad52bf78b7d06e80178bb82f5" method="post">
+        <input type="hidden" id="lat" name="lat" value="">
+        <input type="hidden" id="lon" name="lon" value="">
+        <!-- other form elements -->
+        <input type="submit" value="Submit">
+        </form>
+        
+        <script>
+        // get the user's geographical coordinates using Geolocation API
+        navigator.geolocation.getCurrentPosition(
+        // success function
+        function (position) {
+        // set the value of the hidden fields with latitude and longitude
+        document.getElementById("lat").value = position.coords.latitude;
+        document.getElementById("lon").value = position.coords.longitude;
+        },
+        // error function
+        function (error) {
+        // display error message
+        alert("Error getting location: " + error.message);
+        },
+        // options. See MDN documentation for details.
+        {
+        enableHighAccuracy: true,
+        timeout: 5000,
+        maximumAge: 0
+        }
+        );
+        </script>
