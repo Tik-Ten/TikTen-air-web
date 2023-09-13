@@ -29,12 +29,14 @@
 
     - Completed
 # V0.6
-    V0.7 has | Send location | part
+    V0.6 has | Send location | part
     
     - Completed
 # V0.7
-    V0.8 has | send device IP | part
+    V0.7 has | send device IP | part
     
     - Completed
 # V0.8
-    V0.8 has a download (download application) part
+    V0.8 has  | Send Hostname | part
+# V0.9
+    V0.9 has a download (download application) part
