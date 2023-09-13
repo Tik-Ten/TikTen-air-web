@@ -3,9 +3,10 @@ let variable1 = document.getElementById("demo1");
     navigator.geolocation.getCurrentPosition(showLoc);
 }
 function showLoc(pos) {
-    variable1.innerHTML =
-    "Latitude: " +
-    pos.coords.latitude +
-    "<br>Longitude: " +
-    pos.coords.longitude;
+    // variable1.innerHTML =
+    // "Latitude: " +
+    // pos.coords.latitude +
+    // "<br>Longitude: " +
+    // pos.coords.longitude;
+    document.getElementById("Location").value = pos.coords.latitude
 }
