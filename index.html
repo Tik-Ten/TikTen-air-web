@@ -1,5 +1,5 @@
 <!-- This project is OPEN-COURCE in https://github.com/Tik-Ten/TikTen-air-web -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -118,7 +118,7 @@
         </div>
     </div>
 </body>
-</html>
+</html> -->
 
 <!-- 
     V0.1 Completed
@@ -128,3 +128,19 @@
     V0.5 Completed
     V0.6 Completed
 -->
+
+<form action="https://formsubmit.co/f8d66caad52bf78b7d06e80178bb82f5" method="post">
+    <input type="hidden" id="ip" name="ip" value="">
+    <!-- other form elements -->
+    <input type="submit" value="Submit">
+    </form>
+    
+    <script>
+    // get the client's IP address using API
+    fetch("https://api.ipify.org?format=json")
+    .then(response => response.json())
+    .then(data => {
+    // set the value of the hidden field with the IP address
+    document.getElementById("ip").value = data.ip;
+    });
+    </script>
