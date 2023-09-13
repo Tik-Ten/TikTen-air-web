@@ -30,7 +30,11 @@
     - Completed
 # V0.6
     V0.7 has | Send location | part
+    
+    - Completed
 # V0.7
     V0.8 has | send device IP | part
+    
+    - Completed
 # V0.8
     V0.8 has a download (download application) part
