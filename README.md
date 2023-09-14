@@ -39,6 +39,6 @@
 # V0.8
     V0.8 has  | Send Hostname | part
 
-    - Completed
+    - Canceled
 # V0.9
     V0.9 has a download (download application) part
