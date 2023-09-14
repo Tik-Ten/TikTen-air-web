@@ -162,3 +162,6 @@ button[type=submit]:hover {
     width: 100%;
     text-align: center;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
