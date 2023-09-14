@@ -46,6 +46,8 @@
     - Completed
 # V1.0
     V1.0 has Copyleft part (It's Copyleft!)
+
+    - Completed
 # V1.1 
     V1.1 has version part(show website version)
 # V1.2
