@@ -42,3 +42,11 @@
     - Canceled
 # V0.9
     V0.9 has a download (download application) part
+
+    - Completed
+# V1.0
+    V1.0 has Copyleft part (It's Copyleft!)
+# V1.1 
+    V1.1 has version part(show website version)
+# V1.2
+    V1.2 has | We are open-source! | part
