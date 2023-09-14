@@ -42,3 +42,5 @@
     - Canceled
 # V0.9
     V0.9 has a download (download application) part
+
+    - Completed
