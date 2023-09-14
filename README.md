@@ -54,3 +54,6 @@
     - Completed
 # V1.2
     V1.2 has | We are open-source! | part
+
+    - Completed
+    
