@@ -44,3 +44,5 @@
     V0.9 has a download (download application) part
 
     - Completed
+# V1.0
+    V0.1 has Copyleft part (It's Copyleft!)
