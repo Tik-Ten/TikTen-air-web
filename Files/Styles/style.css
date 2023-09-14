@@ -162,3 +162,9 @@ button[type=submit]:hover {
     width: 100%;
     text-align: center;
 }
+.icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
