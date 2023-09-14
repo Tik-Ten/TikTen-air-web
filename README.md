@@ -50,5 +50,7 @@
     - Completed
 # V1.1 
     V1.1 has version part(show website version)
+
+    - Completed
 # V1.2
     V1.2 has | We are open-source! | part
